@@ -19,7 +19,6 @@ ELSE.
   WRITE: / 'Insert failed'.
 ENDIF.
 
-* Read data
 SELECT * FROM zemployee_demo INTO TABLE lt_employee.
 
 LOOP AT lt_employee INTO ls_employee.
