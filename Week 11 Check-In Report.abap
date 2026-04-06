@@ -3,7 +3,6 @@ REPORT z_employee_demo.
 DATA: ls_employee TYPE zemployee_demo,
       lt_employee TYPE TABLE OF zemployee_demo.
 
-* Insert sample data
 ls_employee-client = sy-mandt.
 ls_employee-employee_id = '0000000001'.
 ls_employee-first_name = 'Cade'.
